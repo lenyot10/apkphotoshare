@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/basic": "^5.1.1",
+    "@hapi/catbox-redis": "^5.0.5",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "bcrypt": "^3.0.6",
+    "hapi-pino": "^6.3.0",
+    "mongoose": "^5.8.2",
+    "qs": "^6.9.1"
+  }
+}
